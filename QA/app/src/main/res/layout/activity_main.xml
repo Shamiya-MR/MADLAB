@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="QandA"
+    android:layout_marginLeft="145dp"
+    android:textSize="30dp"
+    android:textStyle="bold" />
+<TextView
+    android:id="@+id/qn1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Who invented Computer?"
+    android:textSize="20dp"
+    android:layout_marginLeft="70dp"
+    android:textColor="@color/black"
+    android:layout_marginTop="65dp"/>
+<Button
+    android:id="@+id/btn1"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:text="Answer"
+    android:textSize="10dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/qn1"/>
+<TextView
+    android:id="@+id/answer1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="20dp"
+    android:layout_marginLeft="70dp"
+
+    android:textColor="@color/black"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/btn1"/>
+<TextView
+    android:id="@+id/qn2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Brain of computer is?"
+    android:textSize="20dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="30dp"
+    android:textColor="@color/black"
+    android:layout_below="@+id/answer1"/>
+<Button
+    android:id="@+id/btn2"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:text="Answer"
+    android:textSize="10dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="37dp"
+    android:layout_below="@+id/qn2"/>
+<TextView
+    android:id="@+id/answer2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="20dp"
+    android:layout_marginLeft="70dp"
+    android:textColor="@color/black"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/btn2"/>
+<TextView
+    android:id="@+id/qn3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Founder of Android Studio?"
+    android:textSize="20dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="30dp"
+    android:textColor="@color/black"
+    android:layout_below="@+id/answer2"/>
+<Button
+    android:id="@+id/btn3"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:text="Answer"
+    android:textSize="10dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="37dp"
+    android:layout_below="@+id/qn3"/>
+<TextView
+    android:id="@+id/answer3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="20dp"
+
+    android:layout_marginLeft="70dp"
+    android:textColor="@color/black"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/btn3"/>
+</RelativeLayout>
+

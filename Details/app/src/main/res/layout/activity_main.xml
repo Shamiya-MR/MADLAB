@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_700"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHAMIYA MR"
+        android:layout_marginLeft="110dp"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="@color/purple_200"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S3 MCA"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/teal_200"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/name"/>
+    <TextView
+        android:id="@+id/rollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ROLL NO:46"
+        android:layout_marginLeft="140dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/teal_200"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/course"/>
+    <TextView
+        android:id="@+id/college"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RIT, KOTTAYAM"
+        android:layout_marginLeft="130dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/teal_200"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/rollno"/>
+</RelativeLayout>
